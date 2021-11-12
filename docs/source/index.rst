@@ -1,22 +1,27 @@
-Welcome to Lumache's documentation!
+DPU ESP32
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+DPU ESP32 is a Display Process Unit with ESP32 processor.
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
-
-.. note::
-
-   This project is under active development.
+Specification:
+ - 2.8" IPS LCD Panel
+ - 5-Point Touch Screen
+ - ESP32 Wrover with 16MB Flash and 8MB PSRAM
+ - AP2112K 3.3V LDO
+ - CP2102 USB-Serial Adapter
+ - Li-po battery charging circuit with PH2.0 Connector
+ - SD Cart Slot
+ - 2x8-Pin GPIO Hearder
+ - QWIIC/STMMA QT I2C Connector
+ - ON-OFF Switch, RST, IO0 Button.
 
 Contents
 --------
 
 .. toctree::
 
-   usage
-   api
+   hardware
+   mechanics
+   arduino
+   faq
+   changelog
