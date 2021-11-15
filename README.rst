@@ -1,9 +1,5 @@
-Template for the Read the Docs tutorial
+DPU ESP32
 =======================================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
-
-Read the tutorial here:
-
-https://docs.readthedocs.io/en/stable/tutorial/
+DPU ESP32 is a Display Process Unit with ESP32 Wrover
+For detail tutorial: https://tamc-dpu-esp32.readthedocs.io
