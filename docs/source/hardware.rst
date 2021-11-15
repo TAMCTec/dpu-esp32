@@ -4,50 +4,50 @@ Hardware
 Hardware Specification
 ----------------------
 
-- Main Processor: 
-  - ESP32 Wrover Module
-  - PSRAM: 8MB
-  - Flash: 16MB
-- Display:
-  - 2.8" TFT IPS Display
-  - ST7789V driver
-  - 320x240 pixels
-  - 16bit color
-  - SPI interface
-- Touch Panel:
-  - Capacitive Touch Panel
-  - GT911 Touch Controller
-  - 5-Point touch 
-  - IIC interface
-- Charger:
-  - LTH7 LTC4054
-  - 4.2V/800mA
-- 3.3V LDO
-  - AP2112K
-  - 3.3V/600mA
+* Main Processor: 
+  * ESP32 Wrover Module
+  * PSRAM: 8MB
+  * Flash: 16MB
+* Display:
+  * 2.8" TFT IPS Display
+  * ST7789V driver
+  * 320x240 pixels
+  * 16bit color
+  * SPI interface
+* Touch Panel:
+  * Capacitive Touch Panel
+  * GT911 Touch Controller
+  * 5-Point touch 
+  * IIC interface
+* Charger:
+  * LTH7 LTC4054
+  * 4.2V/800mA
+* 3.3V LDO
+  * AP2112K
+  * 3.3V/600mA
 
 Interfaces
 -----------
-- Battery Connector:
-  - PH2.0 2P Connector
-  - Li-Ion/Li-po Battery
-  - Tpy. 3.7V, Max. 4.2V
-- SD Card:
-  - MicroSD Card
-  - SPI interface
-- USB:
-  - CP2102 USB-to-serial converter
-  - USB Type C connector
-  - USB 2.0 interface
-- QWIIC/STAMMA QT
-  - IIC
-- Buttons
-  - Reset Button
-  - IO0 Button
-- Switch
-  - ON/OFF Switch for LDO
-- Header
-  - 2 x 8 Pitch 2.54mm Pin Socket
+* Battery Connector:
+  * PH2.0 2P Connector
+  * Li-Ion/Li-po Battery
+  * Tpy. 3.7V, Max. 4.2V
+* SD Card:
+  * MicroSD Card
+  * SPI interface
+* USB:
+  * CP2102 USB-to-serial converter
+  * USB Type C connector
+  * USB 2.0 interface
+* QWIIC/STAMMA QT
+  * IIC
+* Buttons
+  * Reset Button
+  * IO0 Button
+* Switch
+  * ON/OFF Switch for LDO
+* Header
+  * 2 x 8 Pitch 2.54mm Pin Socket
 
 Pin Socket IO
 --------------
